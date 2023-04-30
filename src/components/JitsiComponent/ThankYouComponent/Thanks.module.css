@@ -1,0 +1,11 @@
+.btn{
+
+    transition: 0.3s;
+    background: white;
+    border: 1px solid #db0276;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    margin: 8px;
+    font-size: 1.1em;
+}
