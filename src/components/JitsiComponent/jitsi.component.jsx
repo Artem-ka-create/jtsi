@@ -152,7 +152,7 @@ class JitsiComponent extends Component {
             <div class="item-center">
                 <span>&nbsp;&nbsp;</span>
                 <button className={styles.btn} onClick={ () => this.executeCommand('toggleAudio') }   title="Mute / Unmute">
-                {isAudioMuted ? <FontAwesomeIcon icon={faMicrophone} /> : <FontAwesomeIcon icon={faMicrophoneSlash} /> }
+                {isAudioMuted ? <FontAwesomeIcon icon={faMicrophoneSlash} /> : <FontAwesomeIcon icon={faMicrophone} /> }
                 </button>
                 
                 <button className={styles.btn} onClick={ () => this.executeCommand('toggleVideo') }  title="Start / Stop camera">
